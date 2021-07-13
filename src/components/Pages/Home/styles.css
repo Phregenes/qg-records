@@ -11,7 +11,7 @@ body {
 }
 
 .section-1 h2{
-  color:#666;
+  color:white;
   font-size: 60px;
 }
 
@@ -24,8 +24,9 @@ body {
 }
 
 .pimg1{
-  background-image:url('../../../assents/img/image1.jpg');
-  height:100%;
+  /* background-image:url('../../../assents/img/image1.jpg'); */
+  background-color:black;
+  height:80%;
 
 }
 
@@ -54,13 +55,15 @@ body {
 }
 
 .section-1{
-  background-color:#161117;
+  background-color:black;
   color:#666;
 }
 
 .section-2{
-  background-color:#666;
+  /* background-color:#666; */
+  background-color:black;
   color:#ddd;
+
 }
 
 .section-3{
@@ -80,7 +83,7 @@ body {
 .text-title {
   margin: 0;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 20%;
   color: white;
 }
 
