@@ -8,7 +8,7 @@ const Home = () =>
 <body>
   <div className="pimg1">
     <div className="ptext">
-      <img src={logo}/>
+      <img className="logo" src={logo}/>
     </div>
   </div>
 

@@ -92,3 +92,7 @@ body {
     background-attachment:scroll;
   }
 }
+
+.logo {
+  width: 50%;
+}
