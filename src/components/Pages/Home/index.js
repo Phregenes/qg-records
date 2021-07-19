@@ -30,7 +30,7 @@ const Home = () =>
     <h2>Contato</h2>
     <h1 className="help">Estamos em obras, instagram</h1>
       <a className="btninsta" href="https://www.instagram.com/qgrecords/">
-      <button className="bbtninsta" />
+      <button className="bbtninsta">instagram</button>
     </a>
   </section>
 

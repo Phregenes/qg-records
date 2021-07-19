@@ -92,15 +92,3 @@ body {
     background-attachment:scroll;
   }
 }
-
-.btninsta{
-  background-image: url(../../../assents/img/insta.svg);
-  background-repeat: no-repeat;
-  width: 50px;
-  /* margin: 2px; */
-}
-.bbtninsta{
-  border: none;
-  width: 50px;
-  background-color: transparent;
-}
