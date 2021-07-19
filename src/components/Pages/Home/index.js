@@ -27,13 +27,14 @@ const Home = () =>
   </div>
 
   <section className="section section-2">
-    <h2>Nossos Artistas</h2>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat tortor metus, sit amet sollicitudin libero pulvinar eleifend. Vestibulum vehicula sed risus eu laoreet. Nunc mollis fringilla porttitor. Nulla facilisi. Nullam ultrices nec urna at pretium. Cras ac efficitur magna, vitae efficitur justo. Etiam lacus purus, scelerisque vel consequat nec, condimentum eget massa. Praesent erat leo, dictum eu pharetra in, lobortis eget velit. Aenean et aliquam enim, sed consectetur ex. Etiam purus nunc, interdum et placerat eu, ullamcorper eget urna. Donec ultricies eleifend elit non semper.
-    </p>
+    <h2>Contato</h2>
+    <h1 className="help">Estamos em obras, instagram</h1>
+      <a className="btninsta" href="https://www.instagram.com/qgrecords/">
+      <button className="bbtninsta" />
+    </a>
   </section>
 
-  <div className="pimg3">
+  {/* <div className="pimg3">
     <div className="ptext">
       <span className="text-title">
         Produção Clip
@@ -54,7 +55,7 @@ const Home = () =>
         Social Media
       </span>
     </div>
-  </div>
+  </div> */}
 </body>
 
 export default Home;
