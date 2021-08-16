@@ -18,7 +18,7 @@ const Home = () =>
     </div>
   </section>
 
-  <div className="pimg2">
+  {/* <div className="pimg2">
     <div className="ptext">
       <span className="text-title">
         Produção musical
@@ -27,8 +27,10 @@ const Home = () =>
   </div>
 
   <section className="section section-2">
-    <div className="boxYoutube">
-    </div>
+    <h2>Nossos clipes</h2>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae eros sed erat pellentesque tristique vel quis nulla. Aenean dui sapien, eleifend nec enim ullamcorper, commodo consequat ante. Phasellus posuere posuere tincidunt. Cras ante velit, aliquet a vulputate ut, dapibus vitae elit. Maecenas maximus massa leo, eget hendrerit mauris viverra eu. Donec eu porttitor nibh. Mauris eu gravida diam. Maecenas interdum pharetra lectus, in finibus sem imperdiet quis. Nam faucibus tortor urna. Ut ac molestie libero. Praesent at tortor placerat, mattis nunc at, auctor enim. Curabitur congue leo id mauris eleifend, fringilla efficitur est posuere. Aenean rhoncus semper dictum. Aenean cursus dapibus metus. Aliquam quis ultrices libero. Curabitur rhoncus dolor ac sem porta, sed blandit ligula luctus.
+    </p>
   </section>
 
   <div className="pimg3">
@@ -52,7 +54,7 @@ const Home = () =>
         Social Media
       </span>
     </div>
-  </div>
+  </div> */}
 </body>
 
 export default Home;
