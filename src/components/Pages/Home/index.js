@@ -18,22 +18,20 @@ const Home = () =>
     </div>
   </section>
 
-  {/* <div className="pimg2">
+  <div className="pimg2">
     <div className="ptext">
       <span className="text-title">
         Produção musical
       </span>
     </div>
-  </div> */}
+  </div>
 
   <section className="section section-2">
-    <h1 className="help">Estamos em obras, instagram</h1>
-      <a className="btninsta" href="https://www.instagram.com/qgrecords/">
-      <button className="bbtninsta">instagram</button>
-    </a>
+    <div className="boxYoutube">
+    </div>
   </section>
 
-  {/* <div className="pimg3">
+  <div className="pimg3">
     <div className="ptext">
       <span className="text-title">
         Produção Clip
@@ -54,7 +52,7 @@ const Home = () =>
         Social Media
       </span>
     </div>
-  </div> */}
+  </div>
 </body>
 
 export default Home;
