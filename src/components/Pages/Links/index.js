@@ -15,6 +15,18 @@ const Links = () => {
     <button className= "buttonLink">
       <a href="https://soundcloud.com/prodnthn/sets/purple-catalogo-de-beats-prod-nthn?ltclid=8d0da8a3-dfb8-484f-abfe-a9a1d04b8ee6" class="button">CATÁLOGO DE BEATS (Prod. Nthn)</a>
     </button>
+    <button className= "buttonLink">
+      <a href="https://open.spotify.com/playlist/2VvD9obKFx5NWXjtCd9Q1m?si=_TCf4pJNSpqkHknOa9AkEQ&ltclid=47412a55-a4f0-4b00-b82b-59b24b53cb43&nd=1" class="button">Lançamentos QG Records (spotify)</a>
+    </button>
+    <button className= "buttonLink">
+      <a href="https://api.whatsapp.com/message/JXHAMBEIPBYSH1" class="button">Nosso whatsapp</a>
+    </button>
+    <button className= "buttonLink">
+      <a href="" class="button">QG Records SC</a>
+    </button>
+    <button className= "buttonLink">
+      <a href="" class="button">One Fé MX - Sonho Interrompido</a>
+    </button>
     </div>
   );
 }
