@@ -22,10 +22,10 @@ const Links = () => {
       <a href="https://api.whatsapp.com/message/JXHAMBEIPBYSH1" class="button">Nosso whatsapp</a>
     </button>
     <button className= "buttonLink">
-      <a href="" class="button">QG Records SC</a>
+      <a href="https://www.instagram.com/qgrecords.sc/?ltclid=4d72e0c1-cbd3-4bf2-8612-cff77897c919" class="button">QG Records SC</a>
     </button>
     <button className= "buttonLink">
-      <a href="" class="button">One Fé MX - Sonho Interrompido</a>
+      <a href="https://www.youtube.com/watch?v=nZpL3QBGt8M&ltclid=242a3e3c-1bae-47ac-86e4-25b24a7ee03b" class="button">One Fé MX - Sonho Interrompido</a>
     </button>
     </div>
   );
