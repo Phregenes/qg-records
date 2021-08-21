@@ -1,32 +1,18 @@
 import React from 'react';
 import './styles.css';
 
-// import Menu from '../../components/NavBar';
+import logo from '../../../assents/img/qg.svg';
 
 const Links = () => {
   return (
     <div className="containerLink">
-    <button className= "buttonLink">
-      <a href="https://www.youtube.com/watch?v=Qdo88sySkrI" class="button">Rikardimas - Laroyê</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://www.youtube.com/watch?v=2n0UTWMWZm4" class="button">La Class & WN - Primeiro Ciclo</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://soundcloud.com/prodnthn/sets/purple-catalogo-de-beats-prod-nthn?ltclid=8d0da8a3-dfb8-484f-abfe-a9a1d04b8ee6" class="button">CATÁLOGO DE BEATS (Prod. Nthn)</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://open.spotify.com/playlist/2VvD9obKFx5NWXjtCd9Q1m?si=_TCf4pJNSpqkHknOa9AkEQ&ltclid=47412a55-a4f0-4b00-b82b-59b24b53cb43&nd=1" class="button">Lançamentos QG Records (spotify)</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://api.whatsapp.com/message/JXHAMBEIPBYSH1" class="button">Nosso whatsapp</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://www.instagram.com/qgrecords.sc/?ltclid=4d72e0c1-cbd3-4bf2-8612-cff77897c919" class="button">QG Records SC</a>
-    </button>
-    <button className= "buttonLink">
-      <a href="https://www.youtube.com/watch?v=nZpL3QBGt8M&ltclid=242a3e3c-1bae-47ac-86e4-25b24a7ee03b" class="button">One Fé MX - Sonho Interrompido</a>
-    </button>
+      <img className="logo" src={logo}/>
+      <p className="ptext">"Ajudando a construir seu sonho com qualidade" 🎧🎥🎤</p>
+      <a className="buttonLink" href="https://www.youtube.com/watch?v=Qdo88sySkrI">Primeiro Ciclo</a> 
+      <a className="buttonLink" href="https://www.youtube.com/playlist?list=PLtxc9nDTD6PUwnN92d6F0nY48n-xBFYdE&ltclid=09db5a6a-ae78-449c-b51c-2ba634bb0276">QG Records - Only | Youtube Playlist</a>
+      <a className="buttonLink" href="https://open.spotify.com/playlist/2VvD9obKFx5NWXjtCd9Q1m?si=_TCf4pJNSpqkHknOa9AkEQ&ltclid=bc30b1fc-8563-4b21-bc7b-15123851f24b">Laçamentos QG Records (Spotify)</a>
+      <a className="buttonLink" href="https://deezer.page.link/dPxvsU8Kebfvexu66?ltclid=d5318e2f-b96e-41cf-994c-0fc85c9fb0ce">Laçamentos QG Records (DEEZER)</a>
+      <a className="buttonLink" href="https://api.whatsapp.com/message/JXHAMBEIPBYSH1">Nosso Whatsapp</a>
     </div>
   );
 }
