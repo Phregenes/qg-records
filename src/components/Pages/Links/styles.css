@@ -49,7 +49,13 @@
   }
 }
 
-.logo {
-  width: 30%;
+.logoLinks {
+  width: 20%;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .logoLink{
+    width: 30px;
+  }
 }

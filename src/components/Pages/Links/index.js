@@ -6,7 +6,7 @@ import logo from '../../../assents/img/qg.svg';
 const Links = () => {
   return (
     <div className="containerLink">
-      <img className="logo" src={logo}/>
+      <img className="logoLinks" src={logo}/>
       <p className="ptext">"Ajudando a construir seu sonho com qualidade" 🎧🎥🎤</p>
       <a className="buttonLink" href="https://www.youtube.com/watch?v=lNrbR4deFoo">Thay Caztro - Bolso Cheio</a> 
       <a className="buttonLink" href="https://www.youtube.com/playlist?list=PLtxc9nDTD6PUwnN92d6F0nY48n-xBFYdE&ltclid=09db5a6a-ae78-449c-b51c-2ba634bb0276">QG Records - Only | Youtube Playlist</a>
