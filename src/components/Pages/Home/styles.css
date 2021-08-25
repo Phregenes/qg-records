@@ -90,13 +90,20 @@ body {
   position: absolute;
   margin-top: 20%;
   color: white;
+  
 }
 
-/* @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3 , {
+/* @media(max-width:768px){
+  .pimg1, .pimg2, .pimg3,{
     background-attachment:scroll;
   }
 } */
+
+@media only screen and (max-width: 800px) {
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
 
 .logo {
   width: 80%;
