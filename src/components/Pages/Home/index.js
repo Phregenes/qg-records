@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 
 import logo from '../../../assents/img/qg.svg';
+import SocialMedia from '../../SocialMedia';
 
 const Home = () => 
 
@@ -18,41 +19,42 @@ const Home = () =>
     </div>
   </section>
 
-  {/* <div className="pimg2">
+  <div className="pimg2">
     <div className="ptext">
       <span className="text-title">
-        Produção musical
+         
       </span>
     </div>
   </div>
 
   <section className="section section-2">
-    <h2>Nossos clipes</h2>
+    <h1>
+      Que somos?
+    </h1>
     <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae eros sed erat pellentesque tristique vel quis nulla. Aenean dui sapien, eleifend nec enim ullamcorper, commodo consequat ante. Phasellus posuere posuere tincidunt. Cras ante velit, aliquet a vulputate ut, dapibus vitae elit. Maecenas maximus massa leo, eget hendrerit mauris viverra eu. Donec eu porttitor nibh. Mauris eu gravida diam. Maecenas interdum pharetra lectus, in finibus sem imperdiet quis. Nam faucibus tortor urna. Ut ac molestie libero. Praesent at tortor placerat, mattis nunc at, auctor enim. Curabitur congue leo id mauris eleifend, fringilla efficitur est posuere. Aenean rhoncus semper dictum. Aenean cursus dapibus metus. Aliquam quis ultrices libero. Curabitur rhoncus dolor ac sem porta, sed blandit ligula luctus.
+    O QG Records®️ é uma gravadora e produtora da Zona Norte de São Paulo, fundado em fevereiro de 2020 com o objetivo de promover e dar oportunidade na cena da musica. Em 2020 o QG Records®️ produziu mais de 10 artistas e lançou 6 Musicas com videoclipe somando mais de 30.000 Visualizações e 10mil seguidores em suas redes sociais, agora em 2021 com o novo processo de aceleração, estamos atraindo ainda mais artistas e se consagrando na cena no rap.
     </p>
+  </section>
+{/* 
+  <section className="section section-3">
+    <h2>Nossos Produtos</h2>
+    <div className="boxContainer">
+      <div className="boxProduct">
+        <h1>Produção Musical</h1>
+        <p>hehueuheueh</p>
+      </div>
+      <div className="boxProduct">
+        <h1>Produção Audio visual</h1>
+      </div>
+      <div className="boxProduct">
+        <h1>Distribuição</h1>
+      </div>
+    </div>
   </section>
 
   <div className="pimg3">
     <div className="ptext">
-      <span className="text-title">
-        Produção Clip
-      </span>
-    </div>
-  </div>
-
-  <section className="section section-3">
-    <h2>Nossos clipes</h2>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae eros sed erat pellentesque tristique vel quis nulla. Aenean dui sapien, eleifend nec enim ullamcorper, commodo consequat ante. Phasellus posuere posuere tincidunt. Cras ante velit, aliquet a vulputate ut, dapibus vitae elit. Maecenas maximus massa leo, eget hendrerit mauris viverra eu. Donec eu porttitor nibh. Mauris eu gravida diam. Maecenas interdum pharetra lectus, in finibus sem imperdiet quis. Nam faucibus tortor urna. Ut ac molestie libero. Praesent at tortor placerat, mattis nunc at, auctor enim. Curabitur congue leo id mauris eleifend, fringilla efficitur est posuere. Aenean rhoncus semper dictum. Aenean cursus dapibus metus. Aliquam quis ultrices libero. Curabitur rhoncus dolor ac sem porta, sed blandit ligula luctus.
-    </p>
-  </section>
-
-  <div className="pimg1">
-    <div className="ptext">
-      <span className="text-title">
-        Social Media
-      </span>
+      <SocialMedia />
     </div>
   </div> */}
 </body>
