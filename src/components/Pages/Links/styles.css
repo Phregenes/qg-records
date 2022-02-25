@@ -1,15 +1,15 @@
-*{
+* {
   background-color: black;
 }
 
-.containerLink{
+.containerLink {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
 }
 
-.buttonLink{
+.buttonLink {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,43 +19,44 @@
   size: 10px;
   border-radius: 5px;
   color: black;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   text-decoration: none;
   text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
-  .buttonLink{
-      font-size: 15px;
-      width: 85%;
+  .buttonLink {
+    font-size: 15px;
+    width: 85%;
   }
 }
 
-.buttonLink:hover{
+.buttonLink:hover {
   background-color: #3d3d3d;
   transition: 20ms;
   color: aliceblue;
 }
 
-.ptext{
+.ptext {
   color: white;
   font-size: 20px;
   text-align: center;
+  margin-top: -90px;
 }
 
 @media only screen and (max-width: 800px) {
-  .ptext{
-      font-size: 10px;
+  .ptext {
+    font-size: 10px;
   }
 }
 
 .logoLinks {
-  width: 20%;
-  margin-top: 20px;
+  width: 30%;
+  /* margin-top: 20px; */
 }
 
 @media only screen and (max-width: 800px) {
-  .logoLink{
+  .logoLink {
     width: 30px;
   }
 }

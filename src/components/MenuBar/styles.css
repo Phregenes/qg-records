@@ -1,0 +1,32 @@
+.MenuBarContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: gray;
+  border-radius: 3px;
+  opacity: 0.8;
+  width: auto;
+  height: 40px;
+  /* right: 10px; */
+  top: 60%;
+  position: absolute;
+}
+
+.containerMenu {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
+}
+p {
+  padding: 40px;
+  color: white;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.logo {
+  width: auto;
+  background-color: transparent;
+}

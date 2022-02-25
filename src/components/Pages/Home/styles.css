@@ -1,86 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap");
 
 body {
-  height:100vh;
-  margin:0;
-  font-size:20px;
-  font-family:"Arvo", sans-serif;
-  font-weight:400;
-  line-height:1.8em;
+  height: 100vh;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Noto Sans Math", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
 }
 
-.section-1 h2{
-  color:white;
+.section-1 h2 {
+  color: white;
   font-size: 60px;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1,
+.pimg2,
+.pimg3 {
   justify-content: center;
   align-items: center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.pimg1{
-  /* background-image:url('../../../assents/img/image1.jpg'); */
-  background-color:black;
-  height:80%;
-}
-
-.pimg2{
-  background-image:url('../../../assents/img/image2.jpg');
+.pimg1 {
+  background-image: url("../../../assents/img/artistas/Crewmate.jpg");
+  /* background-color: black; */
   background-position: center;
-  min-height:400px;
+  height: 80%;
 }
 
-.pimg3{
-  background-image:url('../../../assents/img/image3.jpg');
-  min-height:400px;
+.pimg2 {
+  background-image: url("../../../assents/img/image2.jpg");
+  background-position: center;
+  min-height: 400px;
 }
 
-.ptext img{
+.pimg3 {
+  background-image: url("../../../assents/img/image3.jpg");
+  min-height: 400px;
+}
+
+.ptext img {
   margin: 0;
   max-width: 500px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.section{
-  text-align:center;
-  padding:50px 80px;
+.section {
+  text-align: center;
+  padding: 50px 80px;
 }
-@media(max-width:568px){
+@media (max-width: 568px) {
   .section {
-    padding:20px;
+    padding: 20px;
     background-color: black;
-  }}
-
-.section-1{
-  background-color:black;
-  color:#666;
+  }
 }
 
-.section-2{
-  background-color:black;
-  color:#ddd;
+.section-1 {
+  background-color: black;
+  color: #666;
 }
 
-.section-3{
-  background-color:black;
-  color:#666;
+.section-2 {
+  background-color: black;
+  color: #ddd;
 }
 
-.ptext{
+.section-3 {
+  background-color: black;
+  color: #666;
+}
+
+.ptext {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size:27px;
-  letter-spacing:8px;
-  text-transform:uppercase;
+  font-size: 27px;
+  letter-spacing: 8px;
 }
 
 .text-title {
@@ -90,23 +92,28 @@ body {
   color: white;
 }
 
-/* @media(max-width:768px){
-  .pimg1, .pimg2, .pimg3,{
-    background-attachment:scroll;
+/* @media (max-width: 768px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
   }
 } */
 
 @media only screen and (max-width: 800px) {
-  .pimg1, .pimg2, .pimg3{
-    background-attachment:scroll;
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
   }
 }
 
 .logo {
   width: 80%;
+  background-color: transparent;
 }
 
-.boxContainer{
+.boxContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -115,10 +122,15 @@ body {
   background-color: transparent;
 }
 
-.boxProduct{
-  width: 15%;
+.boxProduct {
+  width: 20%;
   min-width: 300px;
-  height: 400px;
-  background-color: white;
+  color: white;
   margin: 10px;
+}
+
+.artistas {
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 10px;
 }
