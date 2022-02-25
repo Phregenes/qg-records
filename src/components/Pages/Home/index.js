@@ -37,7 +37,7 @@ const Home = () =>
   </section> */}
 
   <section className="section section-3">
-    <h2>Nossos Artistas</h2>
+    <h2 className="title">Nossos Artistas</h2>
     <div className="boxContainer">
       <div className="boxProduct">
       <h3>TIM MC</h3>

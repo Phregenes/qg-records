@@ -126,6 +126,7 @@ body {
   width: 20%;
   min-width: 300px;
   color: white;
+  background-color: transparent;
   margin: 10px;
 }
 
@@ -133,4 +134,8 @@ body {
   width: 100%;
   border: 3px solid white;
   border-radius: 10px;
+}
+
+.title {
+  color: white;
 }
