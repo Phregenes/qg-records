@@ -7,6 +7,12 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  background-image: url("../../../assents/img/artistas/Crewmate.jpg");
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .buttonLink {
@@ -51,12 +57,12 @@
 }
 
 .logoLinks {
-  width: 30%;
-  /* margin-top: 20px; */
+  width: 20%;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 800px) {
-  .logoLink {
-    width: 30px;
+  .logoLinks {
+    width: 40%;
   }
 }
