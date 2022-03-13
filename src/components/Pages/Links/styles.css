@@ -25,7 +25,7 @@
   size: 10px;
   border-radius: 5px;
   color: black;
-  background-color: whitesmoke;
+  background-color: #eec55c;
   text-decoration: none;
   text-align: center;
 }
@@ -40,7 +40,7 @@
 .buttonLink:hover {
   background-color: #3d3d3d;
   transition: 20ms;
-  color: aliceblue;
+  color: #eec55c;
 }
 
 .ptext {

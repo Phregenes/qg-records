@@ -6,7 +6,6 @@ import One from '../../../assents/img/artistas/one.jpg';
 import Tim from '../../../assents/img/artistas/tim.jpg';
 import SocialMedia from '../../SocialMedia';
 import MusicLibrary from '../../MusicLibrary';
-import MenuBar from '../../MenuBar';
 
 const Home = () => 
 
@@ -14,7 +13,6 @@ const Home = () =>
   <div className="pimg1">
     <div className="ptext">
       <img className="logo" src={logo}/>
-      {/* <MenuBar /> */}
     </div>
   </div>
 
