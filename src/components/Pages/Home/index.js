@@ -1,11 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 import logo from '../../../assents/img/logo.png';
 import One from '../../../assents/img/artistas/one.jpg';
 import Tim from '../../../assents/img/artistas/tim.jpg';
-import SocialMedia from '../../SocialMedia';
-import MusicLibrary from '../../MusicLibrary';
+import NavBar from '../../NavBar';
 
 const Home = () => 
 
@@ -38,12 +38,16 @@ const Home = () =>
     <h2 className="title">Nossos Artistas</h2>
     <div className="boxContainer">
       <div className="boxProduct">
-      <h3>TIM MC</h3>
-        <img className="artistas" src={Tim}/>
-      </div>
+        <Link className="maginLink" to="/tim-mc">
+          <h3>Tim MC</h3>
+          <img className="artistas" src={Tim}/>
+        </Link>  
+        </div>
       <div className="boxProduct">
-      <h3>One fé MC</h3>
-        <img className="artistas" src={One}/>
+        <Link className="maginLink" to="/onefe-mc">
+          <h3>One fé MC</h3>
+          <img className="artistas" src={One}/>
+        </Link>
       </div>
     </div>
   </section>
@@ -61,15 +65,16 @@ const Home = () =>
       Que somos?
     </h1>
     <p>
-    O QG Records®️ é uma gravadora e produtora da Zona Norte de São Paulo, fundado em fevereiro de 2020 com o objetivo de promover e dar oportunidade na cena da musica. Em 2020 o QG Records®️ produziu mais de 10 artistas e lançou 6 Musicas com videoclipe somando mais de 30.000 Visualizações e 10mil seguidores em suas redes sociais, agora em 2021 com o novo processo de aceleração, estamos atraindo ainda mais artistas e se consagrando na cena no rap.
+    O QG Records® é uma gravadora e produtora da Zona Norte de São Paulo, fundado em fevereiro de 2020 com o objetivo de promover e dar oportunidade na cena da musica. Em 2020 o QG Records®️ produziu mais de 10 artistas e lançou 6 Musicas com videoclipe somando mais de 30.000 Visualizações e 10mil seguidores em suas redes sociais, agora em 2021 com o novo processo de aceleração, estamos atraindo ainda mais artistas e se consagrando na cena no rap.
     </p>
-    <MusicLibrary />
+
   </section>
 
   <div className="pimg3">
-    <div className="ptext">
-      <SocialMedia />
-    </div>
+  <span className="">
+    asd
+    <NavBar />
+  </span>
   </div>
 </body>
 
