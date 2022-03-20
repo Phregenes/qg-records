@@ -32,7 +32,7 @@ const Artists1 = () => {
         </p>
         <img className="artistas__img" src={TimGalvao} />
       </div>
-      <iframe src="https://open.spotify.com/embed/track/7giLSEAHtAb5524NEWwEaC?utm_source=generator&theme=0" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/7giLSEAHtAb5524NEWwEaC?utm_source=generator&theme=0" width="80%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   );
 };

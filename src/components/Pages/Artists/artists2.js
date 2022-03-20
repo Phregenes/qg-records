@@ -31,7 +31,7 @@ const Artists2 = () => {
         </p>
         <img className="artistas__img" src={Ale} />
       </div>
-        <iframe src="https://open.spotify.com/embed/track/68YJkCUpg1SvQkpivuR0vh?utm_source=generator&theme=0" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/track/68YJkCUpg1SvQkpivuR0vh?utm_source=generator&theme=0" width="80%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   );
 };
